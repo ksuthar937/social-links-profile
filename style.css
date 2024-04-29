@@ -1,0 +1,87 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+main {
+  width: 300px;
+  background-color: #333333;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.place {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(75, 94%, 57%);
+}
+
+.role {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  width: 240px;
+  color: white;
+  font-weight: 700;
+  background-color: #4e5152f9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(188, 94%, 57%);
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
